@@ -1,2 +1,2 @@
-# rt_mobilenet
-Real-time object detection w/ MobileNet SSD
+# ONNX MobileNetSSD
+Real-time MobileNetSSD object detection w/ ONNX and ONNXRuntime.
