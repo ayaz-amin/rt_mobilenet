@@ -18,7 +18,7 @@ def get_rect(width, height, d):
     
     return (top, left, bottom, right)
 
-sess = rt.InferenceSession("models/ssd_mobilenet_v1_13-qdq.onnx", providers=['CPUExecutionProvider'])
+sess = rt.InferenceSession("ssd_mobilenet_v1_13-qdq.onnx", providers=['CPUExecutionProvider'])
 outputs = ["num_detections", "detection_boxes", "detection_scores", "detection_classes"]
 cam = cv2.VideoCapture(0)
 writer = cv2.VideoWriter(
